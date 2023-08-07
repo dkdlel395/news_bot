@@ -63,8 +63,6 @@ django 4.2.3 (python 3.11.3 맞춤)
 - pip install djangorestframework markdown django-filter
 - setting.py -> installe_app -> rest_framework
 
-
-
 ## 앱 생성
 - python manage.py startapp reporter
 - reporter/view.py 에서 작업
@@ -98,6 +96,11 @@ django 4.2.3 (python 3.11.3 맞춤)
 
 ## API 사용
 - python 쉘 실행 : python manage.py shell
+
+## 로그인/로그아웃, 회원가입
+- pip install django-rest-auth django-allauth
+- django-rest-auth : 로그인과 로그아웃 
+- django-allauth : 회원가입
 
 ## 관리자(super user) 생성
 - python manage.py createsuperuser
